@@ -29,7 +29,7 @@ function teachers($teacher_info)
         }
         array_push($result,$info);
     }
-    echo "<br><h1>My Details</h1><br>";
+    echo "<br><h1>Teacher Details</h1><br>";
     $s_data = json_encode($result,true);
     echo $s_data;
 }
