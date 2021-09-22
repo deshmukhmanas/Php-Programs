@@ -28,4 +28,7 @@ if($t1 instanceof Teacher){
     echo $t1->get_teacher();
     echo "</br>";
 }
+else{
+    echo "<h1>404: Data Not Found</h1>";
+}
 ?>
