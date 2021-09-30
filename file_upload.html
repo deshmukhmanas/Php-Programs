@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+ <head>   
+   <title> File Upload </title>
+   <style>
+
+     #file_upload {
+
+         color : rgb(68, 0, 255)
+      }
+     #upload {
+
+        color : rgb(0, 255, 136)
+
+     }
+
+     .name {
+
+         color: rgba(211, 137, 18, 0.548)
+
+     }
+
+   </style>
+ </head>
+ <body>
+    
+    <form action="file_upload.php" method ="post" enctype="multipart/form-data">
+    Select any file to upload : 
+
+      <h1 class = "name"> Please upload file! </h1>
+
+     <input type="file" name="file_upload" id="file_upload" >
+    </br>
+</br>
+     <input type="submit" value="Upload File" name="submit" id = "upload" >
+
+    </form>
+
+ </body>
+
+
+
+</html>
