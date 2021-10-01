@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<head>
+<title>Application Form</title>
+</head>
+
+<body>
+<marquee direction="right" height="30px"><b>Application Form for Exam</b></marquee>
+<hr>
+
+<form action="formdata.php" method="post">
+<fieldset>
+
+<legend>Personal Details</legend>
+
+<label for="fname">First name:</label>
+<input type="line" id="fname" name="fname" required >
+
+<label for="mname">Middle name:</label>
+<input type="text" id="mname" name="mname" required>
+
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname"><br><br>
+
+<label for="faname">Father's name:</label>
+<input type="text" id="faname" name="faname" size='97' required><br><br>
+
+<label for="moname">Mother's name:</label>
+<input type="text" id="moname" name="moname" size='96' required><br><br>
+
+
+<label for="gender">Gender:<br></label>
+<br>
+<input type='radio' id="Male" name="gender" value="Male">
+<label for="Male">Male</label>
+
+<input type='radio' id="Female" name="gender" value="Female">
+<label for="Female">Female</label><br>
+<br>
+
+<label for="gender">Caste:<br></label>
+<br>
+<input type='radio' id="Open" name="caste" value="Open">
+<label for="open">Open</label>
+
+<input type='radio' id="OBC" name="caste" value="OBC">
+<label for="OBC">OBC</label>
+
+<input type='radio' id="SC/ST" name="caste" value="SC/ST">
+<label for="sc/st">SC/ST</label><br>
+
+<br>
+
+<label for="email">Email id:</label>
+<input type="email" id="email" name="email" size='30'>
+
+
+<label for="phone">Phone No:</label>
+<input type="mob" id="phone" name="phone" size='20'>
+
+<label for="landline">Landline No:</label>
+<input type="tel" id="landline" name="landline" size='20'><br>
+<br>
+<label for="pancardno">Pancard No:</label>
+<input type="pan" id="pancardno" name="pancardno" size='20'>
+
+
+<label>
+  Date of Birth:
+  <input type="date" name="bday">
+</label>
+
+</fieldset>
+<fieldset>
+<legend>Address</legend>
+<textarea name="message" rows="5" cols="80"></textarea>
+<br>
+<br>
+<label for="city">City:</label>
+
+  <select id="city" name="city">
+    <option value="Ahmednagar">Ahmednagar</option>
+    <option value="Pune">Pune</option>
+    <option value="Nashik">Nashik</option>
+    <option value="Dhule">Dhule</option>
+  </select>
+  
+  <label for="state">State:</label>
+
+  <select id="state" name="state">
+    <option value="Maharashtra">Maharashtra</option>
+    <option value="Pondicherry">Pondicherry</option>
+    <option value="Raigad">Raigad</option>
+    
+  </select>
+  
+  <label for="country">Country:</label>
+
+  <select id="country" name="country">
+    <option value="India">India</option>
+    <option value="Africa">Africa</option>
+    <option value="Newzealand">Newzealand</option>
+    
+  </select>
+  
+<label for="pincode">Pincode:</label>
+<input type="pin" id="pincode" name="pincode" size='20'>
+
+</fieldset>
+<br>
+
+<fieldset>
+<legend>Educational Qualifications</legend>
+<table>
+
+</table>
+
+</fieldset>
+<button type="submit" class="submitbtn" size='40'>Submit</button>
+</form>
+
+</body>
+</html>
